@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "/flowers")
+@CrossOrigin
 public class FlowerController {
 
     private final FlowerService flowerService;
